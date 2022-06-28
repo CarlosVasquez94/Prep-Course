@@ -71,7 +71,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if('str1' === 'str2') {
+  if(str1.length === str2.length) {
     return true
   }
   return false
@@ -157,7 +157,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return(Math.ramdom(0 , 1))
+  return(Math.random())
 }
 
 function esPositivo(numero) {
@@ -165,14 +165,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero > 0) {
-    return('Es positivo')
-} else if(numero < 0) {
-  return('Es negativo')
-} else(numero == 0) {
-  return false
-}
-}
+} if(numero > 0) {
+  return('Es positivo') {
+    else if(numero < 0) 
+      return('Es negativo') {
+        else(numero == 0) 
+          return false
+      }
+    }
+  }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string

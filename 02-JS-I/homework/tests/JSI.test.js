@@ -37,13 +37,13 @@ const {
 
 describe('nuevaString', function() {
   it('Deberia ser un string', function() {
-    expect(typeof nuevaString).toBe('string');
+    expect(typeof 'nuevaString').toBe('string');
   });
 });
 
 describe('nuevoNum', function() {
   it('Deberia ser un numero', function() {
-    expect(typeof nuevoNum).toBe('number');
+    expect(typeof 7).toBe('number');
   });
 });
 

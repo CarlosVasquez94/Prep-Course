@@ -43,7 +43,7 @@ describe('nuevaString', function() {
 
 describe('nuevoNum', function() {
   it('Deberia ser un numero', function() {
-    expect(typeof 7).toBe('number');
+    expect(typeof 72).toBe('number');
   });
 });
 
